@@ -13,8 +13,8 @@
 		9FA8590188A5D449A7200FA608C2C6DD /* Pods-test_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 849088C2B407FAFAFDAC5A01BA07237E /* Pods-test_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5D98A23078ED34B13C711826A6CE1DF /* Pods-test_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA8655F7A61867CD96DD6EE1FB32212 /* Pods-test_Example-dummy.m */; };
 		AD48A0D285BB6852D4552604D2E33E3F /* test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407B663CE895ED863E9443CB13E37FD /* test-dummy.m */; };
-		BD29C0A2232920F400E05AD0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C0A1232920F400E05AD0 /* Test.swift */; };
-		BD29C0C12329272200E05AD0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C0A1232920F400E05AD0 /* Test.swift */; };
+		BD29C0A2232920F400E05AD0 /* TestA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C0A1232920F400E05AD0 /* TestA.swift */; };
+		BD29C0C12329272200E05AD0 /* TestA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29C0A1232920F400E05AD0 /* TestA.swift */; };
 		E610ADEEE913B063F7A216B99D3462A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E656A837034FDCB8AA334455707585B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EC8972A85496BAF04B07DDD6DD65EA74 /* Pods-test_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46E6083A53D8F3EF49965EDA6EDF8E5 /* Pods-test_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,7 +60,7 @@
 		A7CB110C43F02CD8C41BD350542C0CA7 /* Pods-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAAB063044585CFC51C55165CF8AC040 /* Pods_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46CADDFCE49D22566C500A863BC9119 /* Pods-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test_Tests-Info.plist"; sourceTree = "<group>"; };
-		BD29C0A1232920F400E05AD0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		BD29C0A1232920F400E05AD0 /* TestA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestA.swift; sourceTree = "<group>"; };
 		C6EC6806E6124BDDC0AB697A8E70C1A4 /* Pods-test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test_Example.modulemap"; sourceTree = "<group>"; };
 		CFA8655F7A61867CD96DD6EE1FB32212 /* Pods-test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test_Example-dummy.m"; sourceTree = "<group>"; };
 		E1DE54D36451DC418F8FDA212B4ACBE1 /* Pods-test_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		BD29C0A0232920B700E05AD0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BD29C0A1232920F400E05AD0 /* Test.swift */,
+				BD29C0A1232920F400E05AD0 /* TestA.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D98A23078ED34B13C711826A6CE1DF /* Pods-test_Example-dummy.m in Sources */,
-				BD29C0A2232920F400E05AD0 /* Test.swift in Sources */,
+				BD29C0A2232920F400E05AD0 /* TestA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD48A0D285BB6852D4552604D2E33E3F /* test-dummy.m in Sources */,
-				BD29C0C12329272200E05AD0 /* Test.swift in Sources */,
+				BD29C0C12329272200E05AD0 /* TestA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

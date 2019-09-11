@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-public class Test: UIView {
+public class TestA: UIView {
     
     @IBInspectable var back : String = ""
     
@@ -24,7 +24,7 @@ public class Test: UIView {
     }
 }
 
-extension Test {
+extension TestA {
     func setupViews() {
         backgroundColor = .red
     }
